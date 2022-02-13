@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app_nav {
+  padding: 1em 0;
+}
+
+/* style navigation bar */
+.app_nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+/* style navigation bar - list items*/
+.app_nav > ul > li {
+  margin: 0px 8px;
+}
+/* style navigation bar - list links*/
+.app_nav > ul > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 8px;
+  color: #141418;
+  font-family: "Poppins", sans-serif;
+}
+
+/* main */
+.app_main {
+}
+
+/* main - sections */
+.app_main > .main-section {
+  min-height: 80vh;
+}
+
+/* main - sections > titles*/
+.app_main > .main-section > .main-title {
+  font-family: "Barlow", sans-serif;
+  padding: 0.5em 1em;
+  color: #333;
+}
+
+/* style title icons */
+.main-title > .fa-circle-check {
+  color: rgb(47, 83, 245);
+}
+
+/* about-me */
+.main-section.about-me {
+}
+/* my-project */
+.main-section.my-project {
+}
+/* my-contact */
+.main-section.my-contact {
+}
